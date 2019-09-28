@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenPartDef>
+    <defName>GameCondition_def_D9ClimateCycle</defName>
+    <label>custom climate cycle</label>
+    <scenPartClass>D9CCC.ScenPart_D9ClimateCycle</scenPartClass>
+    <category>GameCondition</category>
+    <gameCondition>D9CustomClimateCycle</gameCondition>
+    <gameConditionTargetsWorld>true</gameConditionTargetsWorld>
+  </ScenPartDef>
+</Defs>

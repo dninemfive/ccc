@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GameConditionDef>
+    <defName>D9CustomClimateCycle</defName>
+    <conditionClass>D9CCC.GameCondition_D9ClimateCycle</conditionClass>
+    <label>climate cycle</label>
+    <description>A multi-year climate cycle with custom settings.</description>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+</Defs>

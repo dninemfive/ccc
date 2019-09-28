@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<d9cccOffset>Period offset (years)</d9cccOffset>
+	<d9cccUseOffset>Use period offset?</d9cccUseOffset>
+	<d9cccPeriod>Period (years)</d9cccPeriod>
+	<d9cccTempFactor>Temperature factor</d9cccTempFactor>
+	<d9cccTempOffset>Temperature offset</d9cccTempOffset>
+	<d9cccXCoeff>X-Coefficient</d9cccXCoeff>
+</LanguageData>
