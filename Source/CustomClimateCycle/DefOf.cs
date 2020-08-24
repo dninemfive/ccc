@@ -8,7 +8,7 @@ using RimWorld;
 namespace D9CCC
 {
     [DefOf]
-    public static class defOf
+    public static class CCCDefOf
     {
         public static GameConditionDef D9CustomClimateCycle;
     }

@@ -58,11 +58,10 @@ namespace D9CCC
         }
         public override void PostWorldGenerate()
         {
-            //GameCondition gccc = (GameCondition)Activator.CreateInstance(typeof(GameCondition_D9ClimateCycle));
             GameCondition_D9ClimateCycle gccc = new GameCondition_D9ClimateCycle();
-            if(useOffset)gccc.setup((int)(yearsOffset * GenDate.TicksPerYear), PeriodYears, tempOffsetFactor, tempOffsetOffset, xCoeff);
-            else gccc.setup(PeriodYears, tempOffsetFactor, tempOffsetOffset, xCoeff);
-            gccc.def = defOf.D9CustomClimateCycle;
+            if(useOffset) gccc.Setup((int)(yearsOffset * GenDate.TicksPerYear), PeriodYears, tempOffsetFactor, tempOffsetOffset, xCoeff);
+            else gccc.Setup(PeriodYears, tempOffsetFactor, tempOffsetOffset, xCoeff);
+            gccc.def = CCCDefOf.D9CustomClimateCycle;
             Find.World.gameConditionManager.RegisterCondition(gccc);
         }
     }

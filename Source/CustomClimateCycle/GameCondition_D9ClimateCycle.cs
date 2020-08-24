@@ -27,24 +27,24 @@ namespace D9CCC
             ticksOffset = ((!(Rand.Value < 0.5f)) ? 7200000 : 0);
         }
 
-        public void setup(float p, float tf, float to, float x)
+        public void Setup(float p, float tf, float to, float x)
         {            
             PeriodYears = p;
             ticksOffset = (int)(UnityEngine.Random.Range(0f, PeriodYears * GenDate.TicksPerYear));
             tempOffsetFactor = tf;
             tempOffsetOffset = to;
             xCoeff = x;
-            make();
+            Make();
         }
 
-        public void setup(int o, float p, float tf, float to, float x)
+        public void Setup(int o, float p, float tf, float to, float x)
         {
-            setup(p, tf, to, x);
+            Setup(p, tf, to, x);
             ticksOffset = o;
-            make();
+            Make();
         }
 
-        public void make() // homologous to GameConditionManager.MakePermanent(this)
+        public void Make() // homologous to GameConditionManager.MakePermanent(this)
         {
             startTick = Find.TickManager.TicksGame - 180000;
             Permanent = true;
