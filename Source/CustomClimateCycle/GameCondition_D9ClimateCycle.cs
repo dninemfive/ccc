@@ -24,7 +24,6 @@ namespace D9CCC
 
         public override void Init()
         {
-            ticksOffset = ((!(Rand.Value < 0.5f)) ? 7200000 : 0);
         }
 
         public void Setup(float p, float tf, float to, float x)
