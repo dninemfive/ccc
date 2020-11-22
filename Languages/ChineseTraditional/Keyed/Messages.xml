@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<d9cccOffset>期間偏移（年）</d9cccOffset>
+	<d9cccUseOffset>使用期間偏移？</d9cccUseOffset>
+	<d9cccPeriod>周期（年）</d9cccPeriod>
+	<d9cccTempFactor>溫度係數</d9cccTempFactor>
+	<d9cccTempOffset>溫度偏移</d9cccTempOffset>
+	<d9cccXCoeff>X係數</d9cccXCoeff>
+</LanguageData>
