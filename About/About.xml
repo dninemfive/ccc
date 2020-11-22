@@ -4,5 +4,5 @@
   <author>dninemfive</author>
   <packageId>dninemfive.customclimatecycle</packageId>
   <supportedVersions><li>1.0</li><li>1.1</li><li>1.2</li></supportedVersions>
-  <description>Adds a new climate cycle setting allowing customization of every aspect, from period to temperature offsets, plus the ability to set up a runaway scenario. Access it through the new "Custom Climate Cycle" scenario part.</description>
+  <description>Adds a new climate cycle setting allowing customization of every aspect, from period to temperature offsets, plus the ability to set up a runaway scenario. Access it through the new "Custom Climate Cycle" scenario part.\n\nThanks to 22点下 for the Chinese (Simplified and Traditional) translations.</description>
 </ModMetaData>
